@@ -1,0 +1,6 @@
+.footer {
+    @extend %mysection;
+    background: {
+        color: $black_color;
+    };
+}
