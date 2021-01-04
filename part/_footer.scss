@@ -3,4 +3,14 @@
     background: {
         color: $black_color;
     };
+    &__tittle {
+        @extend %tittle;
+        color: $yellow_color;
+    }
+&__text{
+    @extend %text;
+}
+    h3 {font-size: 40px;}
+    
+
 }
