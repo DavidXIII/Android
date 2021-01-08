@@ -10,7 +10,29 @@
 &__text{
     @extend %text;
 }
-    h3 {font-size: 40px;}
-    
+    h3 {
+        font-size: 40px;}
 
+    &__input{ 
+            @extend %text;
+      }
+      &__input-email {
+          width: 560px;
+          margin-top: 40px;
+          margin-left: 20px;
+        }
+        &__input-submit{
+            background: {color: $yellow_color};
+        }
+        &__input-submit, &__input-email {
+            height: 50px;
+        }
+        
+        // .container{
+        // flex-direction:row;
+        // justify-content:space-between;
+        // align-items:center;
+        // min-height:600px;
+
+        // }
 }

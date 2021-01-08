@@ -8,7 +8,7 @@
   margin-bottom: 22px;
   text-align: center; }
 
-.slider__description, .content__text, .footer__text {
+.slider__description, .content__text, .footer__text, .footer__input {
   width: 66.6667%;
   margin: 10px auto;
   text-align: center; }
@@ -109,5 +109,13 @@ a {
     color: #FCDB00; }
   .footer h3 {
     font-size: 40px; }
+  .footer__input-email {
+    width: 560px;
+    margin-top: 40px;
+    margin-left: 20px; }
+  .footer__input-submit {
+    background-color: #FCDB00; }
+  .footer__input-submit, .footer__input-email {
+    height: 50px; }
 
 /*# sourceMappingURL=style.css.map */
