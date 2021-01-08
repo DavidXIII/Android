@@ -112,10 +112,33 @@ a {
   .footer__input-email {
     width: 560px;
     margin-top: 40px;
-    margin-left: 20px; }
+    margin-left: 20px;
+    padding: 17px;
+    text-align: left; }
   .footer__input-submit {
-    background-color: #FCDB00; }
+    background-color: #FCDB00;
+    display: inline-block;
+    width: 174px;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase; }
   .footer__input-submit, .footer__input-email {
-    height: 50px; }
+    height: 50px;
+    border-radius: 3px;
+    border: none; }
+  .footer .container {
+    display: flex;
+    max-width: 1200px;
+    flex-direction: column;
+    align-items: center; }
+  .footer .container__list {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 80px; }
+  .footer ul {
+    justify-content: space-between;
+    list-style-type: none; }
+  .footer p, .footer li, .footer a {
+    max-width: 220px; }
 
 /*# sourceMappingURL=style.css.map */
